@@ -6,22 +6,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me</title>
+    <title>Luke Mastrocola</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="contact-me.css">
     
 </head>
 
+ 
+
 <header>
     <nav>
-        <a href="/"><img class="logo" src="/My Logo.jpg" alt=""></a>
+        <a href="/"><img class="logo" src="/My Logo large border.jpg" alt=""></a>
         
         <div class="menu-items">
             <li><a href="/about-me.html">About Me</a></li>
             <li><a href="/portfolio.html">Portfolio</a></li>
             <li><a href="/contact-me.html">Contact me</a></li>
+
+            
           
         </div>
     </nav>
@@ -29,5 +34,32 @@
 </header>
 
 <p>CONTACT ME</p>
+
+<div class="container">
+    <form>
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="UK">UK</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Type here.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+
     
 </html>

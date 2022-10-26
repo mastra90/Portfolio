@@ -1,0 +1,46 @@
+/* input styling */
+input[type=text], select, textarea {
+    margin: auto;
+    display: block;
+    width: 60%; 
+    padding: 12px;
+    border: 1px solid rgb(188, 187, 187); 
+    border-radius: 4px;
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px;
+    resize: vertical;
+    max-width: 600px;
+    min-width: 150px; 
+  }
+  /* label styling */
+  label {
+    margin: auto;
+    display: block;
+    width: 60%;
+    max-width: 600px;
+    min-width: 150px; 
+  }
+  
+  /* button styling */
+  input[type=submit] {
+    background-color: #DED3A6;
+    color: rgb(16, 16, 18);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: .75;
+    margin: auto;
+    display: block;
+    width: 60%;
+    max-width: 600px;
+    min-width: 150px; 
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  /* button hover styling */
+  input[type=submit]:hover {
+    opacity: 1;
+  }
+  

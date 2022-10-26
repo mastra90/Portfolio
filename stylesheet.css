@@ -13,7 +13,6 @@ background-color: #DED3A6;
 
 body{
 background-color: #F2F2EF;
-
 }
 
 
@@ -24,17 +23,13 @@ margin-bottom: 30px;
 margin-top: 30px;
 margin-left: 30px;
 margin-right: 0px;
-opacity: .8;
-border-radius: 10%;
-
-
+opacity: .75;
+border-radius: 50%;
 }
 
 .logo:hover {
-  opacity: 1;
+  opacity: .9;
 }
-
-
 
 .menu-items {
   display: flex;
@@ -44,23 +39,32 @@ border-radius: 10%;
   float: right;
   padding: 70px;
   max-width: fit-content;
-  
-  
+  /* opacity: .9;   */
 }
 
 .menu-items a {
   text-decoration: none;
   font-weight: 600; 
   color: rgb(16, 16, 18);
+  border: black 20px;
 } 
 
+.menu-items :hover {
+  /* opacity: .8; */
+  text-decoration: underline;
+  animation-duration: 2s;
+}
+ 
 p {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 40px 40px;
   font-size: 300%;
+
 }
 
+
+/* navigation media query styling */
 @media all and (max-width: 640px) {
 .menu-items {
 display: grid;
@@ -68,6 +72,10 @@ padding: 50px;
 margin-right: 10%;
 margin-top: -10px;
 row-gap: 10px;
+}
+
+p {
+  font-size: 250%;
 }
 
 @media all and (max-width: 399px) {
@@ -79,6 +87,10 @@ row-gap: 10px;
   row-gap: 10px;
   }
   
+  p {
+    font-size: 200%;
+  }
+
 @media all and (max-width: 321px) {
     .menu-items {
     display: grid;
@@ -87,6 +99,10 @@ row-gap: 10px;
     margin-top: 30px;
     row-gap: 10px;
     font-size: 14px;
+    }
+
+    p {
+      font-size: 150%;
     }
   
 @media all and (max-width: 399px) {
