@@ -1,0 +1,168 @@
+/* Navigation */
+
+@media all and (max-width: 640px) {
+  .nav-items {
+    display: grid;
+    padding: 48px;
+    margin-right: 10%;
+    margin-top: -24px;
+    row-gap: 10px;
+  }
+  h1 {
+    font-size: 175%;
+    }
+}
+  
+@media all and (max-width: 399px) {
+  .nav-items {
+    display: grid;
+    padding: 12px;
+    margin-right: 22%;
+    margin-top: 12px;
+    row-gap: 12px;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 150%; 
+  }
+  .logo {
+    width: 80px;
+    margin-left: 10%;
+    }
+  }
+  
+@media all and (max-width: 321px) {
+  .nav-items {
+    display: grid;
+    padding: 16px;
+    margin-right: 22%;
+    margin-top: 24px;
+    row-gap: 12px;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 125%;
+    }
+  }
+    
+@media all and (max-width: 280px) {
+  .nav-items {
+    display: grid;
+    padding: 16px;
+    margin-right: 22%;
+    margin-top: 24px;
+    row-gap: 8px;
+    font-size: 12px;
+    }
+  h1 {
+    font-size: 100%;
+    }
+  .logo {
+    width: 60px;
+    margin-left: 10%;
+    }
+  }
+  
+@media all and (max-width: 220px) {
+  .nav-items {
+    display: grid;
+    padding: 6px;
+    margin-right: 15%;
+    margin-top: 25px;
+    row-gap: 6px;
+    font-size: 12px;
+    }
+  h1 {
+    font-size: 90%;
+    }
+  }
+
+  /* For 4k resolution screens */
+
+@media all and (min-width: 3800px) {
+  .nav-items {
+    font-size: 275%;
+  }
+  h1 {
+    font-size: 250%;
+    }
+  }
+
+/* ---Contact form--- */
+
+/* mobile screens */
+
+@media all and (max-width: 640px) {
+  div form label {
+    margin: auto;
+    display: flex;
+    min-width: 40%;
+    font-size: 80%; 
+  }
+
+h1 {
+    font-size: 150%
+  }
+
+  div form input[type=text], div form select, div form textarea {
+    margin: auto;
+    display: flex;
+    min-width: 40%;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+   }
+
+  div form textarea {
+    margin-bottom: 32px;
+    height: 160px !important;
+
+  }
+
+  div form input[type=submit] {
+    margin: auto;
+    min-width: 40%;
+    border-radius: 4%;
+    margin-bottom: 48px;
+    height: 40px;
+  }
+}
+
+/*4k screens  */
+
+@media all and (min-width: 1800px) {
+  div form label {
+    margin: auto;
+    display: flex;
+    min-width: 40%;
+    font-size: 175%; 
+  }
+
+h1 {
+    font-size: 400%;
+  }
+
+  div form input[type=text], div form select, div form textarea {
+    margin: auto;
+    display: flex;
+    min-width: 40%;
+    height: 4vh;
+    font-size: 200%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+   }
+
+  div form textarea {
+    height: 800px !important;
+    margin-bottom: 48px;
+  }
+
+  div form input[type=submit] {
+    margin: auto;
+    min-width: 40%;
+    font-size: 200%;
+    border-radius: 4%;
+    margin-bottom: 48px;
+  }
+}
