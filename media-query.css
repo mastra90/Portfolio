@@ -3,92 +3,130 @@
 @media all and (max-width: 640px) {
   .nav-items {
     display: grid;
-    padding: 48px;
-    margin-right: 10%;
-    margin-top: -24px;
-    row-gap: 10px;
+    padding: 4px; 
+    margin-right: 1%;
+    margin-top: 4%;
+    row-gap: 30px;
+    background-color: none;
   }
+  .nav-items a {
+    font-size: 24px;
+  }
+
   h1 {
-    font-size: 175%;
+    /* font-size: 24px; */
     }
 }
   
-@media all and (max-width: 399px) {
+@media all and (max-width: 440px) {
   .nav-items {
     display: grid;
-    padding: 12px;
-    margin-right: 22%;
-    margin-top: 12px;
-    row-gap: 12px;
-    font-size: 18px;
+    padding: 4px; 
+    margin-right: 1%;
+    margin-top: 4%;
+    row-gap: 30px;
+    background-color: none;
+  }
+  .nav-items a {
+    font-size: 20px;
   }
   h1 {
-    font-size: 150%; 
+    font-size: 175%; 
   }
   .logo {
     width: 80px;
     margin-left: 10%;
+    margin-bottom: 72px;
     }
   }
   
 @media all and (max-width: 321px) {
   .nav-items {
     display: grid;
-    padding: 16px;
-    margin-right: 22%;
-    margin-top: 24px;
-    row-gap: 12px;
-    font-size: 14px;
+    padding: 4px; 
+    margin-right: 1%;
+    margin-top: 4%;
+    row-gap: 30px;
+    background-color: none;
+  }
+  .nav-items a {
+    font-size: 20px;
   }
   h1 {
-    font-size: 125%;
+    font-size: 150%;
     }
   }
     
 @media all and (max-width: 280px) {
   .nav-items {
     display: grid;
-    padding: 16px;
-    margin-right: 22%;
-    margin-top: 24px;
-    row-gap: 8px;
-    font-size: 12px;
-    }
+    padding: 4px; 
+    margin-right: 1%;
+    margin-top: 4%;
+    margin-bottom: 56px;
+    row-gap: 30px;
+    background-color: none;
+  }
+  .nav-items a {
+    font-size: 16px;
+  }
   h1 {
-    font-size: 100%;
+    font-size: 150%;
     }
+
   .logo {
     width: 60px;
     margin-left: 10%;
     }
   }
   
-@media all and (max-width: 220px) {
+@media all and (max-width: 250px) {
   .nav-items {
     display: grid;
-    padding: 6px;
-    margin-right: 15%;
-    margin-top: 25px;
-    row-gap: 6px;
-    font-size: 12px;
-    }
+    padding: 4px; 
+    margin-right: 1%;
+    margin-top: 4%;
+    row-gap: 30px;
+    background-color: none;
+  }
+  .nav-items a {
+    font-size: 16px;
+  }
   h1 {
-    font-size: 90%;
+    font-size: 150%;
     }
   }
+
+  @media all and (max-width: 227px) {
+    .nav-items {
+      display: grid;
+      padding: 4px; 
+      margin-right: 1%;
+      margin-top: 4%;
+      row-gap: 20px;
+      background-color: none;
+      margin-bottom: 40px;
+    }
+    .nav-items a {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 125%;
+      }
+    }
 
   /* For 4k resolution screens */
 
 @media all and (min-width: 3800px) {
-  .nav-items {
+  .nav-items a {
     font-size: 275%;
   }
   h1 {
-    font-size: 250%;
+    font-size: 400%;
     }
   }
 
-/* ---Contact form--- */
+/* ---Contact form start--- */
 
 /* mobile screens */
 
@@ -98,10 +136,6 @@
     display: flex;
     min-width: 40%;
     font-size: 80%; 
-  }
-
-h1 {
-    font-size: 150%
   }
 
   div form input[type=text], div form select, div form textarea {
@@ -131,16 +165,12 @@ h1 {
 
 /*4k screens  */
 
-@media all and (min-width: 1800px) {
+@media all and (min-width: 3800px) {
   div form label {
     margin: auto;
     display: flex;
     min-width: 40%;
     font-size: 175%; 
-  }
-
-h1 {
-    font-size: 400%;
   }
 
   div form input[type=text], div form select, div form textarea {
@@ -166,3 +196,5 @@ h1 {
     margin-bottom: 48px;
   }
 }
+
+/* ---Contact form end--- */

@@ -6,7 +6,8 @@
 }
 
 header {
-background-color: #DED3A6;
+background-color: #F2F2EF;
+
 }
 
 body{
@@ -36,27 +37,32 @@ border-radius: 50%;
 
 .nav-items {
   display: flex;
-  column-gap: 30px;
+  column-gap: 5px;
   list-style: none;
-  font-size: 1.5rem;
   float: right;
-  padding: 70px;
-  max-width: fit-content;
+  padding: 32px;
+  max-width: fit-content; 
 }
 
 /* .nav-items text styling */
 
 .nav-items a {
-  text-decoration: none;
-  font-weight: 600; 
-  color: #4C4C4D;
+  text-decoration: none; 
+  font-size: 1.5rem;
+  color: #F2F2EF;
+  border: none;
+  background-color: #759242;
+  padding: 4px 16px;
+  border: solid #759242 5px;
+  border-radius: 8px;
 } 
 
 /* .nav-items text hover styling */
 
 .nav-items :hover {
-  color: #28282A;
-  text-decoration: underline;
+  color: #759242;
+  background-color: #F2F2EF;
+  /* text-decoration: underline; */
   animation-duration: 2s;
 }
 
@@ -67,87 +73,5 @@ h1 {
   justify-content: center;
   margin: 40px 40px;
   font-size: 200%;
-  color: #4C4C4D;
-}
-
-
-
-
-/* nav-items and logo media query styling */
-
-@media all and (max-width: 640px) {
-  .nav-items {
-    display: grid;
-    padding: 50px;
-    margin-right: 10%;
-    margin-top: -20px;
-    row-gap: 10px;
-    }
-    h1 {
-      font-size: 175%;
-    }
-  }
-
-@media all and (max-width: 399px) {
-  .nav-items {
-    display: grid;
-    padding: 15px;
-    margin-right: 22%;
-    margin-top: 10px;
-    row-gap: 10px;
-    font-size: 18px;
-  }
-  h1 {
-    font-size: 150%; 
-  }
-  .logo {
-    width: 80px;
-    margin-left: 10%;
-  }
-}
-
-@media all and (max-width: 321px) {
-  .nav-items {
-    display: grid;
-    padding: 15px;
-    margin-right: 22%;
-    margin-top: 20px;
-    row-gap: 10px;
-    font-size: 14px;
-  }
-  h1 {
-   font-size: 125%;
-  }
-}
-  
-@media all and (max-width: 280px) {
-  .nav-items {
-    display: grid;
-    padding: 15px;
-    margin-right: 22%;
-    margin-top: 20px;
-    row-gap: 10px;
-    font-size: 12px;
-  }
-  h1 {
-   font-size: 100%;
-  }
-  .logo {
-    width: 60px;
-    margin-left: 10%;
-  }
-}
-
-@media all and (max-width: 220px) {
-  .nav-items {
-    display: grid;
-    padding: 5px;
-    margin-right: 15%;
-    margin-top: 25px;
-    row-gap: 5px;
-    font-size: 12px;
-  }
-  h1 {
-    font-size: 90%;
-  }
+  color: #454037;
 }

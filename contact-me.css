@@ -8,7 +8,7 @@ input[type=text], select, textarea {
     display: block;
     width: 60%; 
     padding: 12px;
-    border: 1px solid #424138; 
+    border: 1px solid #494949; 
     border-radius: 4px;
     margin-top: 8px;
     margin-bottom: 16px;
@@ -16,6 +16,7 @@ input[type=text], select, textarea {
     max-width: 600px;
     min-width: 152px; 
     font-size: 16px;
+    color: #2a2727;
   }
 
   /* input labels styling */
@@ -27,16 +28,21 @@ input[type=text], select, textarea {
     max-width: 600px;
     min-width: 152px; 
     font-size: 14px;
+    color: #272728;
+  }
+
+  ::placeholder {
+    color: #949394;
   }
   
   /* button styling */
 
   input[type=submit] {
     background-color: #DED3A6;
-    color: rgb(16, 16, 18);
+    color: #252421;
     font-size: 16px;
     padding: 12px 20px;
-    border-color: #424138;
+    border-color: #494949;
     border-width: 1px;
     border-radius: 4px;
     cursor: pointer;
@@ -47,13 +53,13 @@ input[type=text], select, textarea {
     max-width: 600px;
     min-width: 150px; 
     margin-top: 32px;
-    margin-bottom: 48px;;
+    margin-bottom: 48px;
   }
   
   /* button hover styling */
 
   input[type=submit]:hover {
-    background-color: #424138;
+    background-color: #454037;
     color: #F2F2EF;
   }
   
