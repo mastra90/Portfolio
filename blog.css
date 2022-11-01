@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 5%;
+  
+}
+
+.blog-buttons {
+  background-color: #759242;
+  padding: 1.5vw;
+  margin: 40px;
+  text-align: center;
+  color: #F2F2EF;
+  font-size: 2vw;
+  background-size: cover; 
+  opacity: 0.7; 
+  border-radius: 0.6vw;
+  
+  }
+
+  .blog-buttons:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+  }
+  
+
+  div a {
+    text-decoration: none
+  }
+
+div h1 {
+  font-size: 2vw;
+}
+
+.blog-posts h1 {
+  display: flex;
+  justify-content: start;
+  padding-left: 2rem;
+  margin-top: 6rem;
+  
+}
+
+.blog-posts h2 {
+  display: flex;
+  justify-content: start;
+  padding-left: 3.3rem;
+  font-size: 1.3vw;
+  color: #494949;
+}
+
+.blog-posts p {
+  display: flex;
+  justify-content: start;
+  padding-left: 3.3rem;
+  font-size: 1.3vw;
+  color: #494949;
+}
+ 
+#blog-image {
+  display: flex;
+  margin: auto;
+  margin-top: 2vw;
+  width: 60%;
+  border-radius: 0.8vw
+}
+
+#blog-image:hover {
+  transform: scale(1.06);
+    transition: 0.4s ease;
+}
+
+.top {
+  font-size: 1vw;
+  text-decoration: none;
+  padding: 4px 16px;
+  color: #F2F2EF;
+  background: #759242;
+  border-radius: 0.3vw;
+  margin-left: 3.3rem;
+  margin-bottom: 5vw;
+  border: solid #759242 3px;
+}
+
+.top:hover {
+  color: #759242;
+  background-color: #F2F2EF;
+  transition: 0.4s ease;
+}
+
+/* ---Blog start--- */
+
+/* .blog-buttons */
+
+@media all and (max-width: 1800px) {
+  .blog-buttons {
+    width: 1000px;
+    padding: 2vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .blog-buttons {
+    width: 800px;
+    padding: 2vw;
+    margin-left: 18vw;
+    font-size: 2vw;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .blog-buttons {
+    width: 600px;
+    padding: 2vw;
+    margin-left: 22vw;
+    font-size: 2vw;
+  }
+  .blog-buttons {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 980px) {
+ .blog-buttons {
+    width: 100%;
+    margin: 0;
+    height: 120px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    margin-top: 5px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .blog-posts h1 {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+
+  }
+}
+
+@media all and (max-width: 980px) {
+  .blog-posts h2 {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+  }
+
+

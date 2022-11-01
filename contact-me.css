@@ -38,8 +38,8 @@ input[type=text], select, textarea {
   /* button styling */
 
   input[type=submit] {
-    background-color: #DED3A6;
-    color: #252421;
+    background-color: #494949;
+    color: #F2F2EF;
     font-size: 16px;
     padding: 12px 20px;
     border-color: #494949;
@@ -59,7 +59,8 @@ input[type=text], select, textarea {
   /* button hover styling */
 
   input[type=submit]:hover {
-    background-color: #454037;
+    background-color: #759242;
     color: #F2F2EF;
+    transition: 0.3s ease;
   }
   
