@@ -1,8 +1,8 @@
 
-/* CONTACT ME STYLING */
+/* CONTACT ME PAGE STYLING */
+
 
 /* input fields styling */
-
 input[type=text], select, textarea {
     margin: auto;
     display: block;
@@ -57,13 +57,92 @@ input[type=text], select, textarea {
   }
   
   /* button hover styling */
-
   input[type=submit]:hover {
-    background-color: #759242;
+    background-color: #2a2727;
     color: #F2F2EF;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
+    transform: scale(1.03);
+    transition: 0.5s ease
   }
-  
+
+  .contact-details {
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    resize: vertical;
+    font-size: 36px;
+    color: #2a2727;
+  }
+
+  /* Icon styling */
+  .icons { 
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    resize: vertical;
+    max-width: 600px;
+    min-width: 152px; 
+    font-size: 64px; 
+  }
+
+  .icons a {text-decoration: none; color:#494949}
+  .icons a:visited { text-decoration: none; color:#494949 }
+
+  .icons a:hover {
+    transform: scale(1.15);
+    transition: 0.4s ease;
+    color: #2a2727;
+  }
+ 
+  .contact-containter {
+    margin: auto;
+    padding: 12px; 
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    max-width: 600px;
+  }
+
+  .resume a {
+    background-color: #494949;
+    color: #F2F2EF;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 320px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+  .resume a:hover {
+
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    background-color: #2a2727
+  }
+  .resume a:visited { text-decoration: none; color:#F2F2EF }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* ------------------------------Contact form media query START------------------------------ */
 @media all and (max-width: 640px) {
@@ -130,4 +209,28 @@ input[type=text], select, textarea {
     margin-bottom: 48px;
   }
 }
-/* ------------------------------Contact form END------------------------------ */
+
+@media all and (max-width: 550px) {
+  .contact-details {
+    font-size: 24px;
+  }
+  .icons {
+    font-size: 48px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .resume a {
+   width: 80%;
+   font-size: 12px;
+  }
+  .contact-details {
+    font-size: 16px;
+  }
+  .icons {
+    font-size: 36px;
+  }
+}
+
+
+/* ------------------------------Contact form media query END------------------------------ */

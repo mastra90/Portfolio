@@ -1,3 +1,7 @@
+
+/* BLOG PAGE STYLING */
+
+/* Smooth scroll effect */
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +22,7 @@ html {
   color: #F2F2EF;
   font-size: 48px;
   background-size: cover; 
-  opacity: 0.7; 
+  opacity: 0.85; 
   border-radius: 0.6vw;
   
   }
@@ -26,7 +30,7 @@ html {
 /* Blog button hover styling */
 .blog-buttons:hover {
   opacity: 1;
-  transform: scale(1.03);
+  transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
   
@@ -96,8 +100,6 @@ html {
   background-color: #F2F2EF;
   transition: 0.4s ease;
 }
-
-
 
 
 /* ------------------------------Blog media query START------------------------------ */
