@@ -29,6 +29,7 @@ To create this feeling, I have created hover animations on the following
 
 The logo features as the home page button. From anywhere on the website you can click this to go back to the main page.
 The logo is at 75% opacity and changes to 90% opacity when the user hover's their cursor over it to create a responsive feel.
+
 ![Alt text](../../../../../../../../C:/Users/lukej/Documents/coder-acadamy/term-1/assignments/portfolio/Images/Screenshots/logo.png)
 
 
@@ -61,11 +62,21 @@ All images on the webpage will increase in size on hover to create a responsive 
 <br>
 <br>
 
+## Tech Stack:
+![Alt text](../../../../../../../../C:/Users/lukej/Documents/coder-acadamy/term-1/assignments/portfolio/Images/Tech%20Stack.png)
+
 ## Sitemap:
 
 ![Alt text](../../../../../../../../C:/Users/lukej/Documents/coder-acadamy/term-1/assignments/portfolio/Images/Sitemap.png)
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -81,5 +92,7 @@ Images:                         https://www.pexels.com/search/technology/
 
 Website deployment:             https://www.netlify.com/
 
-Sitemap creation tool:          https://octopus.do/
+General information:            https://www.w3schools.com/         
+
+
 
