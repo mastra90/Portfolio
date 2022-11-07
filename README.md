@@ -83,16 +83,3 @@ All images on the webpage will increase in size on hover to create a responsive 
 
 
 
-
-# References:
-
-Color pallet:                   https://colorpalettes.net/color-palette-4570/
-
-Images:                         https://www.pexels.com/search/technology/ 
-
-Website deployment:             https://www.netlify.com/
-
-General information:            https://www.w3schools.com/         
-
-
-

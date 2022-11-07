@@ -16,7 +16,7 @@ input[type=text], select, textarea {
     max-width: 600px;
     min-width: 152px; 
     font-size: 16px;
-    color: #2a2727;
+    color: #494949;
   }
 
   /* input labels styling */
@@ -28,7 +28,7 @@ input[type=text], select, textarea {
     max-width: 600px;
     min-width: 152px; 
     font-size: 14px;
-    color: #272728;
+    color: #494949;
   }
 
   ::placeholder {
@@ -58,7 +58,7 @@ input[type=text], select, textarea {
   
   /* button hover styling */
   input[type=submit]:hover {
-    background-color: #2a2727;
+    background-color: #2a2728;
     color: #F2F2EF;
     transition: 0.4s ease;
     transform: scale(1.03);
@@ -71,7 +71,7 @@ input[type=text], select, textarea {
     margin-top: 8px;
     resize: vertical;
     font-size: 36px;
-    color: #2a2727;
+    color: #2a2728;
   }
 
   /* Icon styling */
@@ -93,7 +93,7 @@ input[type=text], select, textarea {
   .icons a:hover {
     transform: scale(1.15);
     transition: 0.4s ease;
-    color: #2a2727;
+    color: #2a2728;
   }
  
   .contact-containter {
@@ -123,7 +123,7 @@ input[type=text], select, textarea {
 
     transform: scale(1.05);
     transition: 0.5s ease;
-    background-color: #2a2727
+    background-color: #2a2728
   }
   .resume a:visited { text-decoration: none; color:#F2F2EF }
 
