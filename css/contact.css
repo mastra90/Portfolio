@@ -14,7 +14,7 @@ h2 {
     display: block;
     padding: 12px;
     border: 1px solid #222222; 
-    border-radius: 4px;
+    border-radius: 6px;
     margin-top: 8px;
     margin-bottom: 16px;
     resize: vertical;
@@ -49,11 +49,10 @@ h2 {
   input[type=submit] {
     width: 60%;
     background-color: #55d6aa;
-    color: #222222;
+    color: #2d2d2d;
     font-size: 1em;
     padding: 12px 20px;
-    border-width: 1px;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     opacity: 1;
     margin: auto;
@@ -62,6 +61,8 @@ h2 {
     min-width: 150px; 
     margin-top: 32px;
     margin-bottom: 48px;
+    border: none
+    
   }
   
   /* button hover styling */
@@ -135,7 +136,6 @@ h2 {
   div form input[type=submit] {
     margin: auto;
     min-width: 40%;
-    border-radius: 4%;
     margin-bottom: 48px;
     height: 40px;
   }

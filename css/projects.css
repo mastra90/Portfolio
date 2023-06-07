@@ -209,7 +209,7 @@ margin-top: 100px;
 
 @media all and (max-width: 440px) {
   #project-image {
-    padding-right: 18px
+    margin-right: 1.5rem
   }
 }
 
