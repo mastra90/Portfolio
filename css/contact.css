@@ -1,7 +1,7 @@
 
 /* CONTACT ME PAGE STYLING */
 
-  h2 {
+h2 {
     display: flex;
     justify-content: center;
     font-size: 2.5em;
@@ -9,9 +9,9 @@
   }
   /* input fields styling */
   input[type=text],[type=email], select, textarea {
+    width: 60%; 
     margin: auto;
     display: block;
-    width: 60%; 
     padding: 12px;
     border: 1px solid #222222; 
     border-radius: 4px;
@@ -20,7 +20,7 @@
     resize: vertical;
     max-width: 600px;
     min-width: 152px; 
-    font-size: 16px;
+    font-size: 1em;
     color: #222222;
   }
   
@@ -31,7 +31,7 @@
     width: 60%;
     max-width: 600px;
     min-width: 152px; 
-    font-size: 20px;
+    font-size: 1.1em;
     color: #f2f2f2;
   }
   
@@ -47,9 +47,10 @@
 
   /* submit button styling */
   input[type=submit] {
+    width: 60%;
     background-color: #55d6aa;
     color: #222222;
-    font-size: 16px;
+    font-size: 1em;
     padding: 12px 20px;
     border-width: 1px;
     border-radius: 4px;
@@ -57,7 +58,6 @@
     opacity: 1;
     margin: auto;
     display: block;
-    width: 60%;
     max-width: 600px;
     min-width: 150px; 
     margin-top: 32px;
@@ -98,17 +98,23 @@
   
   
   /* ----------Contact form media query START---------- */
-
-@media all and (max-width: 640px) {
+  @media all and (max-width: 800px) {
+  input[type=submit] {
+    width: 80%;
+  }
+  input[type=text],[type=email], select, textarea {
+    width: 80%; 
+  }
+  label {
+    width: 80%;
+  }  
+}
+@media all and (max-width: 650px) {
   div form label {
     margin: auto;
     display: flex;
     min-width: 40%;
-    font-size: 80%; 
-  }
-
-  div form input[type=email] {
-    font-size: 12px; 
+    font-size: 0.9em; 
   }
 
   div form input[type=text],[type=email], div form select, div form textarea {
@@ -116,7 +122,7 @@
     display: flex;
     min-width: 40%;
     height: 40px;
-    font-size: 12px;
+    font-size: 0.9em;
     margin-top: 8px;
     margin-bottom: 8px;
   }
@@ -133,8 +139,20 @@
     margin-bottom: 48px;
     height: 40px;
   }
+
+  h2 {
+    font-size: 2em;
+  }
+  input[type=submit] {
+    width: 90%;
+  }
+  input[type=text],[type=email], select, textarea {
+    width: 90%; 
+  }
+  label {
+    width: 90%;
+  }  
 }
-  
 @media all and (max-width: 550px) {
   .icons {
     font-size: 48px;
@@ -148,6 +166,15 @@
   h2 {
     font-size: 24px; 
   }
+  input[type=submit] {
+    width: 100%;
+  }
+  input[type=text],[type=email], select, textarea {
+    width: 100%; 
+  }
+  label {
+    width: 100%;
+  }  
 }
 
   /* ----------Contact form media query END---------- */
