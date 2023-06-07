@@ -19,10 +19,16 @@ body {
     overflow: scroll
 }
 
+
 /* Nav container */
 .container {
-    width: 80%;
-    margin: auto;   
+  max-width: 80%;
+  margin: auto;   
+}
+
+.welcome-content {
+  max-width: 50em;
+  margin: auto;   
 }
 
 /* Nav header */
@@ -110,7 +116,7 @@ div.icons-nav {
 /* Heading style */
 div.welcome-text {
   display: block;
-  font-size: 1.4em;
+  font-size: 1.6em;
   color: #f2f2f2;
   max-width: 36em;
   margin-left: auto;
@@ -146,6 +152,11 @@ header {
 }
 }
 
+@media all and (max-width: 870px) {
+  .welcome-content {
+    max-width: 90%;
+}
+}
 @media all and (max-width: 650px) {
 /* .container {
   width: 100%;
@@ -167,7 +178,7 @@ header {
 }
 
 
-@media all and (max-width: 470px){
+@media all and (max-width: 540px){
 .logo {
   font-size: 0.9em;  
 }
@@ -192,11 +203,8 @@ div.welcome-text {
 
 }
 
-@media all and (max-width: 360px){
+@media all and (max-width: 365px){
  
-   div.welcome-text {
-    font-size: 1em;
-  }
   .first-line {
     margin-bottom: -1rem;
   } 

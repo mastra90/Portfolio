@@ -1,16 +1,16 @@
 /* Heading font size */
-h2 {
-  font-size: 40px; 
-  padding: 10px;
-}
 
+
+#app-sub-title {
+  font-size: 1.7em;
+}
 /* Smooth scroll effect */
 html {
 scroll-behavior: smooth;
 }
 
 .content {
-max-width: 1200px;
+max-width: 79em;
 margin: auto;
 margin-top: 5%; 
 }
@@ -27,7 +27,7 @@ cursor: pointer;
 
 .project-images img {
 width: 90%;
-border-radius: 20px;
+border-radius: 0.8em;
 margin: 20px;
 box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
 }
@@ -35,9 +35,9 @@ box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
 .project-posts h1 {
 display: flex;
 justify-content: start;
-padding-left: 3.2rem;
+padding-left: 3.3rem;
 margin-top: 6rem;
-font-size: 40px; 
+font-size: 2.5em; 
 color: #f2f2f2;
 }
 
@@ -45,7 +45,7 @@ color: #f2f2f2;
 display: flex;
 justify-content: start;
 padding-left: 3.3rem;
-font-size: 24px;
+font-size: 1.5em;
 color: #f2f2f2;
 }
 
@@ -53,17 +53,18 @@ color: #f2f2f2;
 display: flex;
 justify-content: start;
 padding-left: 3.3rem;
-font-size: 28px;
+font-size: 1.5em;
 color: #f2f2f2;
+margin-right: 50px
 }
 
 #project-image {
 display: flex;
-margin-top: 1vw;
-margin-bottom: 1.5vw;
+margin-top: 30px;
+margin-bottom: 30px;
 margin-left: 50px;
-width: 50%;
-border-radius: 0.8vw
+width: 700px;
+border-radius: 0.6vw
 }
 
 #project-image:hover {
@@ -106,75 +107,36 @@ background-color: #F2F2EF;
 transition: 0.4s ease;
 }
 
+.project-images-mobile img {
+  display: none;  
+}
+
 footer {
 margin-top: 100px;
 }
 
 /* ------------------------------Media query START------------------------------ */
 /* .blog-buttons */
-@media all and (max-width: 1800px) {
-.blog-buttons {
-  width: 1000px;
-  padding: 2vw;
-  margin-left: 8vw;
-  font-size: 40px;
-}
-}
 
-@media all and (max-width: 1400px) {
-.blog-buttons {
-  width: 800px;
-  padding: 2vw;
-  margin-left: 18vw;
-  font-size: 36px
-}
-}
-
-@media all and (max-width: 1200px) {
-.blog-buttons {
-  width: 600px;
-  padding: 2vw;
-  margin-left: 26vw;
-  font-size: 28px
+@media all and (max-width: 1070px) {
+  .project-images img {
+    display: none;
+  }
+  .project-images-mobile img {
+    display: flex;
+    margin: auto;
+    margin-top: 4vw;
+    justify-content: center;
+    width: 90%;
+    cursor: pointer;
+    border-radius: 0.8em;   
+  }
 }
 
 @media all and (max-width: 1025px) {
-.blog-buttons {
-  width: 100%;
-  margin: 0;
-  height: 120px;
-  text-align: center;
-  font-size: 32px;
-  padding-top: 50px;
-  margin-top: 5px;
-  opacity: 1;
-  border-radius: 6px;
-}
-
-/* Blog headings */
-.blog-posts h1 {
-  font-size: 40px;
-  display: block;
-  text-align: center;
-  padding-left: 0px;
-  }
-  
-.blog-posts h2 {
-  font-size: 28px;
-  display: block;
-  text-align: center;
-  padding-left: 0px;
-}
 
 /* Blog 'Back to top' button */
-div .top{
-  display: flex;
-  margin: auto;
-  margin-top: 2vw;
-  width: 140px;
-  justify-content: center;
-  border-radius: 4px;
-}
+
 
 /* Blog images */
 #blog-image {border-radius: 8px; width: 100%;}
@@ -184,10 +146,46 @@ div .top{
 }
 
 /* Blog headings - smaller screen */  
-@media all and (max-width: 700px) {
-.blog-posts h1 {font-size: 36px;}
-.blog-posts h2 {font-size: 24px;} 
+@media all and (max-width: 800px) {
+  .project-posts p {
+    padding-left: 1.5rem;   
+  }
+  #project-image {
+    max-width: 90%;
+    margin-left: 1.5rem
+  }
+  .github-button {
+    margin-left: 1.5rem;
+  } 
+  .project-posts h1 {
+    padding-left: 1.5rem;
+    margin-top: 1rem
+  }
+  .project-posts h2 {
+    padding-left: 1.5rem;
+  }
+  .top {
+    margin-left: 1.5em;
+  }
 }
+
+@media all and (max-width: 600px) {
+  .project-posts h1 {
+    font-size: 2.2rem;
+  }
+  .project-posts p {
+    font-size: 1.3rem;   
+  }
+  .project-posts h2 {
+    font-size: 1.3rem;
+  }
 }
+
+@media all and (max-width: 440px) {
+  #project-image {
+    padding-right: 18px
+  }
+}
+
 
 /* ----------Blog media query END---------- */

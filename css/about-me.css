@@ -2,8 +2,9 @@
   
   /* Text content styling */
   .about-me-posts p {
-    display: block;
-    font-size: 1.2em;
+    display: flex;
+    justify-content: start;
+    font-size: 1.5em;
     color: #f2f2f2;
     max-width: 42em;
     margin-left: auto;
@@ -14,7 +15,7 @@
   #About-me-image {
     display: flex;
     margin-left: 2rem;
-    border-radius: 0.8vw;
+    border-radius: 0.6vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -49,10 +50,21 @@
   } 
 }
 
+@media all and (max-width: 600px) {
+  .about-me-posts p {
+    font-size: 1.35em;
+  }
+}
+
 @media all and (max-width: 400px) {
   .about-me-posts p {
-    display: block;
-    font-size: 0.9em;
+    font-size: 1.2em;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .about-me-posts p {
+    font-size: 1em;
   }
 }
 
