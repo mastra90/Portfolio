@@ -1,6 +1,12 @@
 
 /* CONTACT ME PAGE STYLING */
 
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    color: #f2f2f2;
+  }
   /* input fields styling */
   input[type=text],[type=email], select, textarea {
     margin: auto;

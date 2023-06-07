@@ -28,7 +28,7 @@ body {
 /* Nav header */
 header {
     background: #55d6aa;
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     animation: nav-load var(--display-load) ease-out; ;
 }
 header::after {
@@ -45,7 +45,8 @@ header::after {
     margin-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 150%; 
+    margin-top: -20px;
+    font-size: 1.5em; 
     position: relative;
     font-family: 'Karla', sans-serif; 
 }
@@ -59,9 +60,10 @@ nav {
   display: inline-block;
   margin-left: 12px;
   margin-right: 10px;
-  padding-top: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 20px;
-  font-size: 150%; 
+  font-size: 1.5em; 
   position: relative;
   font-family: 'Karla', sans-serif;
 }
@@ -95,53 +97,30 @@ nav ul {
     width: 100%;
 }
 
+div.icons-nav {
+  margin-top: 16px;
+  font-size: 1.1em;
+  margin-left: -12px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 70%
+  
+}
+
 /* Heading style */
-h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 300%;
-    color: #f2f2f2;
+div.welcome-text {
+  display: block;
+  font-size: 1.4em;
+  color: #f2f2f2;
+  max-width: 36em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
   }
 
-/* Welcome text style */
-.hi {
-    margin: 50px 0px 0px 0px;
-}
-.im {
-    margin-top: 8px;
-}
-
-/* Images style */
-.home-images {
-    display: flex;
-    margin: auto;
-    margin-top: 4vw;
-    justify-content: center;
-    max-width: 1200px;
-    cursor: pointer;
-  } 
-.home-images img {
-  width: 90%;
-  border-radius: 20px;
-  margin: 20px;
-  box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
-}
-
-/* Images hover */ 
-.my-projects:hover{
-    transform: scale(1.02);
-    transition: 0.4s ease-in-out;
-    
+.first-line {
+  margin-bottom: -1.6rem;
 } 
-.about-me:hover{
-    transform: scale(1.02);
-    transition: 0.4s ease-out;
-}
-
-/* Mobile images */
-.home-images-mobile img {
-  display: none;  
-}
 
 /* ----------Media query START---------- */
 
@@ -149,93 +128,84 @@ h2 {
 .nav-bar li {
   display: table;  
   margin-left: 12px;
-  margin-right: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  font-size: 150%; 
+  margin-right: -2em;
+  margin-bottom: -10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   position: relative;
 }
 header {
-  padding: 10px;
+  padding: 30px;
 }
 .logo {
-  margin-left: 4px;
+  margin-left: -2em;
   margin-right: 4px;
+  margin-top: -0.5em;
+  font-size: 1.2em;
 }
-}
-
-@media all and (max-width: 1070px) { 
-.hi {
-  margin: 60px 0px 0px 0px;
-}
-.home-images img {
-  width: 80%;
-  border-radius: 20px;
-  display:none
-} 
-.home-images-mobile img {
-  display: flex;
-  margin: auto;
-  margin-top: 4vw;
-  justify-content: center;
-  width: 80%;
-  cursor: pointer;
-  border-radius: 20px;   
-}
-}
-
-@media all and (max-width: 1000px) {
-h2{
-  font-size: 250%;
-} 
 }
 
 @media all and (max-width: 650px) {
-.container {
+/* .container {
   width: 100%;
-}
+} */
 .home-images-mobile img {
   border-radius: 16px;
 }
+.logo {
+  font-size: 1em;
+  margin-left: -2em;
+}
+.nav-bar li {
+  font-size: 1.2em;
+}
 }
 
-@media all and (max-width: 560px){
-h2{
-  font-size: 200%;
-}
-.home-images-mobile img {
-  border-radius: 12px;
-}
-}
 
 @media all and (max-width: 470px){
-h2{
-  font-size: 175%;
-}
 .logo {
- font-size: 120%;
+  font-size: 0.9em;  
 }
+.nav-bar li {
+  font-size: 1.1em;
+}
+div.welcome-text {
+  font-size: 1.2em;
+}
+.first-line {
+  margin-bottom: -1.3rem;
+} 
 }
 
 @media all and (max-width: 420px){
-.nav-bar li {
-  font-size: 120%; 
-}
 .logo {
-  font-size: 100%;
+  font-size: 0.8em;
  }
+ .nav-bar li {
+  font-size: 1em;
 }
 
-@media all and (max-width: 390px){
-h2 {
-  font-size: 140%; 
-}
 }
 
-@media all and (max-width: 310px){
-h2 {
-  font-size: 120%; 
-}
-}
+@media all and (max-width: 360px){
+ 
+   div.welcome-text {
+    font-size: 1em;
+  }
+  .first-line {
+    margin-bottom: -1rem;
+  } 
+  }
+
+  @media all and (max-width: 250px){
+    .logo {
+      font-size: 0.6em;
+      margin-left: -3em;
+     }
+     .nav-bar li {
+      font-size: 0.8em;
+      margin-right: -3em;
+    }
+  }
 
 /* ----------Media query END---------- */
