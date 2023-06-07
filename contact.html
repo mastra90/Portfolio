@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luke Mastrocola - Contact</title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        
+    </head>
+    <header>
+        <div class="container">
+            <!-- Logo -->
+            <nav class="logo">
+                <ul>
+                    <li><a>>_Luke Mastrocola</a></li>
+                </ul>
+            </nav>
+
+            <!-- Nav bar -->
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <!-- Page heading -->
+        <h2>CONTACT ME</h2>
+
+        <!-- Contact form -->
+        <div class="container">
+            <form name="contact" method="POST" data-netlify="true">
+            <!-- First name label -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <!-- Last name label -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <!-- Email label -->
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email.." />
+            
+            <!-- Country dropdown -->
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="Australia">Australia</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Other">Other</option>
+            </select>
+            
+            <!-- Subject text -->
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Type here.." style="height:200px"></textarea>
+            
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="contact-containter"> 
+            <!-- Social Icons -->
+            <div class="icons">
+                <a href="https://github.com/mastra90" target="_blank" class="fa-brands fa-github"></a>
+                <a href="https://www.linkedin.com/in/luke-mastrocola-aab00427a/" target="_blank" class="fa-brands fa-linkedin"></a> 
+                <a href="https://twitter.com/Mastra_90" target="_blank" class="fa-brands fa-twitter"></a>
+                <a href="https://www.instagram.com/luke.mastrocola/" target="_blank" class="fa-brands fa-instagram"></a> 
+            </div>
+        </div>
+    </body>   
+</html>
