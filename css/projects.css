@@ -64,7 +64,7 @@ margin-top: 30px;
 margin-bottom: 30px;
 margin-left: 50px;
 width: 700px;
-border-radius: 0.6vw
+border-radius: 0.6em
 }
 
 #project-image:hover {
@@ -129,7 +129,7 @@ margin-top: 100px;
     justify-content: center;
     width: 95%;
     cursor: pointer;
-    border-radius: 0.8em;   
+    border-radius: 0.6em;   
     box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
   }
 
@@ -201,7 +201,10 @@ margin-top: 100px;
   .top {
     font-size: 0.9em;
     padding: 4px 10px;
-}
+  }
+  .project-images-mobile img {
+    border-radius: 0.4em; 
+  }
 }
 
 @media all and (max-width: 440px) {
