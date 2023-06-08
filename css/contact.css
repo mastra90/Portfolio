@@ -1,108 +1,107 @@
 
-/* CONTACT ME PAGE STYLING */
+/* Page font */
 body {
   font-family: 'Inter', sans-serif;
 }
+
+/* Heading font size*/
 h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 2.5em;
-    color: #f2f2f2;
-  }
-  /* input fields styling */
-  input[type=text],[type=email], select, textarea {
-    width: 60%; 
-    margin: auto;
-    display: block;
-    padding: 12px;
-    border: 1px solid #222222; 
-    border-radius: 6px;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    resize: vertical;
-    max-width: 600px;
-    min-width: 152px; 
-    font-size: 1em;
-    color: #222222;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  /* input labels styling */
-  label {
-    margin: auto;
-    display: block;
-    width: 60%;
-    max-width: 600px;
-    min-width: 152px; 
-    font-size: 1.1em;
-    color: #f2f2f2;
-  }
-  
-  ::placeholder {
-    color: #9e9c9e;
-  }
-  
-  /* Heading font size*/
-  h2 {
-    font-size: 40px; 
-    padding-top: 27px;
-  }
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  color: #dadada;
+  font-size: 40px; 
+  padding-top: 27px;
+}
 
-  /* submit button styling */
-  input[type=submit] {
-    width: 60%;
-    background-color: #55d6aa;
-    color: #2d2d2d;
-    font-size: 1em;
-    padding: 12px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-    opacity: 1;
-    margin: auto;
-    display: block;
-    max-width: 600px;
-    min-width: 150px; 
-    margin-top: 32px;
-    margin-bottom: 48px;
-    border: none
-    
-  }
+/* input fields styling */
+input[type=text],[type=email], select, textarea {
+  width: 60%; 
+  margin: auto;
+  display: block;
+  padding: 12px;
+  border: 1px solid #181818; 
+  border-radius: 6px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  max-width: 600px;
+  min-width: 152px; 
+  font-size: 1em;
+  color: #181818;
+  font-family: 'Inter', sans-serif;
+}
   
-  /* button hover styling */
-  input[type=submit]:hover {
-    transform: scale(1.02);
-    color: #F2F2EF;
-    transition: 0.4s ease;
-  }
-  
-  /* Icon styling */
-  .icons { 
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 8px;
-    margin-bottom: 64px;
-    resize: vertical;
-    max-width: 600px;
-    min-width: 152px; 
-    font-size: 3em; 
-  } 
-  .icons a {
-    text-decoration: none; color:#F2F2F2
-  }
-  .icons a:visited {
-    text-decoration: none; color:#F2F2F2
-  }
+/* input labels styling */
+label {
+  margin: auto;
+  display: block;
+  width: 60%;
+  max-width: 600px;
+  min-width: 152px; 
+  font-size: 1.1em;
+  color: #dadada;
+}
+ 
+/* Placeholder styling */
+::placeholder {
+  color: #9e9c9e;
+} 
 
-  /* Icon hover styling */
-  .icons a:hover {
-    transform: scale(1.1);
-    transition: 0.4s ease;
-  }
+/* Submit button styling */
+input[type=submit] {
+  width: 60%;
+  background-color: #55d6aa;
+  color: #2d2d2d;
+  font-size: 1em;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 1;
+  margin: auto;
+  display: block;
+  max-width: 600px;
+  min-width: 150px; 
+  margin-top: 32px;
+  margin-bottom: 48px;
+  border: none 
+}
+  
+/* Submit button hover styling */
+input[type=submit]:hover {
+  transform: scale(1.01);
+  transition: 0.1s ease;
+}
+  
+/* Icons styling */
+.icons { 
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8px;
+  margin-bottom: 64px;
+  resize: vertical;
+  max-width: 600px;
+  min-width: 152px; 
+  font-size: 3em; 
+} 
+.icons a {
+  text-decoration: none; color:#F2F2F2
+}
+.icons a:visited {
+  text-decoration: none; color:#F2F2F2
+}
+
+/* Icon hover styling */
+.icons a:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease;
+}
   
   
   /* ----------Contact form media query START---------- */
-  @media all and (max-width: 800px) {
+
+@media all and (max-width: 800px) {
   input[type=submit] {
     width: 80%;
   }
@@ -113,6 +112,7 @@ h2 {
     width: 80%;
   }  
 }
+
 @media all and (max-width: 650px) {
   div form label {
     margin: auto;
@@ -120,7 +120,6 @@ h2 {
     min-width: 40%;
     font-size: 0.9em; 
   }
-
   div form input[type=text],[type=email], div form select, div form textarea {
     margin: auto;
     display: flex;
@@ -130,19 +129,16 @@ h2 {
     margin-top: 8px;
     margin-bottom: 8px;
   }
-
   div form textarea {
     margin-bottom: 32px;
     height: 160px !important;
-  }
-  
+  } 
   div form input[type=submit] {
     margin: auto;
     min-width: 40%;
     margin-bottom: 48px;
     height: 40px;
   }
-
   h2 {
     font-size: 2em;
   }
@@ -156,7 +152,6 @@ h2 {
     width: 90%;
   }  
 }
-
   
 @media all and (max-width: 400px) {
   .icons {
@@ -174,7 +169,6 @@ h2 {
   label {
     width: 100%;
   }  
- 
 }
 
   /* ----------Contact form media query END---------- */

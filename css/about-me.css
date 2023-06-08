@@ -1,42 +1,40 @@
+/* Page font */
 p {
   font-family: 'Inter', sans-serif;
 }
   
-  /* Text content styling */
- .introduction {
-    display: flex;
-    justify-content: start;
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #f2f2f2;
-    max-width: 42em;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* Text content styling */
+.introduction {
+  display: flex;
+  justify-content: start;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #dadada;
+  max-width: 42em;
+  margin-left: auto;
+  margin-right: auto;
+}
   
-  /* Image styling */
-  #About-me-image {
-    display: flex;
-    margin-left: 2rem;
-    border-radius: 0.6vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    max-width: 50.2em;
-    margin-top: 3em;
-    box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
-  }
+/* Setup image styling */
+#About-me-image {
+  display: flex;
+  margin-left: 2rem;
+  border-radius: 0.6vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  max-width: 50.2em;
+  margin-top: 3em;
+  box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
+}
 
-  /* Image hover styling */
-  #About-me-image:hover {
-    transform: scale(1.02);
-    transition: 0.4s ease;
-  }
-
-
-  
-  /* ----------About me media query START---------- */ 
-
+/* Setup image hover styling */
+#About-me-image:hover {
+  transform: scale(1.02);
+  transition: 0.4s ease;
+}
+ 
+/* ----------About me media query START---------- */ 
 
 @media all and (max-width: 980px) {
   #About-me-image {
@@ -65,5 +63,4 @@ p {
   }
 }
 
-
-  /* ----------About me media query END---------- */
+/* ----------About me media query END---------- */
