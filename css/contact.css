@@ -1,6 +1,8 @@
 
 /* CONTACT ME PAGE STYLING */
-
+body {
+  font-family: 'Inter', sans-serif;
+}
 h2 {
     display: flex;
     justify-content: center;
@@ -22,6 +24,7 @@ h2 {
     min-width: 152px; 
     font-size: 1em;
     color: #222222;
+    font-family: 'Inter', sans-serif;
   }
   
   /* input labels styling */
@@ -82,7 +85,7 @@ h2 {
     resize: vertical;
     max-width: 600px;
     min-width: 152px; 
-    font-size: 64px; 
+    font-size: 3em; 
   } 
   .icons a {
     text-decoration: none; color:#F2F2F2
@@ -153,15 +156,11 @@ h2 {
     width: 90%;
   }  
 }
-@media all and (max-width: 550px) {
-  .icons {
-    font-size: 48px;
-  }
-}
+
   
 @media all and (max-width: 400px) {
   .icons {
-    font-size: 36px;
+    font-size: 1.5em;
   }
   h2 {
     font-size: 24px; 
@@ -175,6 +174,7 @@ h2 {
   label {
     width: 100%;
   }  
+ 
 }
 
   /* ----------Contact form media query END---------- */

@@ -1,10 +1,13 @@
-
+p {
+  font-family: 'Inter', sans-serif;
+}
   
   /* Text content styling */
-  .about-me-posts p {
+ .introduction {
     display: flex;
     justify-content: start;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: 300;
     color: #f2f2f2;
     max-width: 42em;
     margin-left: auto;
@@ -50,21 +53,15 @@
   } 
 }
 
-@media all and (max-width: 600px) {
-  .about-me-posts p {
-    font-size: 1.35em;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .about-me-posts p {
-    font-size: 1.2em;
-  }
-}
-
-@media all and (max-width: 360px) {
-  .about-me-posts p {
+@media all and (max-width: 540px) {
+  .introduction {
     font-size: 1em;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .introduction {
+    font-size: 0.8em;
   }
 }
 

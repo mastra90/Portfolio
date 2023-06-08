@@ -1,5 +1,7 @@
 /* Heading font size */
-
+.project-posts {
+  font-family: 'Inter', sans-serif;
+}
 
 #app-sub-title {
   font-size: 1.7em;
@@ -19,7 +21,8 @@ margin-top: 5%;
 .project-images {
 display: flex;
 margin: auto;
-margin-top: 4vw;
+margin-top: 2em;
+margin-bottom: -6em;
 justify-content: center;
 max-width: 1200px;
 cursor: pointer;
@@ -37,7 +40,8 @@ display: flex;
 justify-content: start;
 padding-left: 3.3rem;
 margin-top: 6rem;
-font-size: 2.5em; 
+font-size: 1.8em;
+font-weight: 700; 
 color: #f2f2f2;
 }
 
@@ -45,7 +49,8 @@ color: #f2f2f2;
 display: flex;
 justify-content: start;
 padding-left: 3.3rem;
-font-size: 1.5em;
+font-size: 1.4em;
+font-weight: 600;
 color: #f2f2f2;
 }
 
@@ -53,9 +58,11 @@ color: #f2f2f2;
 display: flex;
 justify-content: start;
 padding-left: 3.3rem;
-font-size: 1.5em;
+font-size: 1.2em;
+font-weight: 300;
 color: #f2f2f2;
-margin-right: 50px
+margin-right: 50px;
+max-width: 70%;
 }
 
 #project-image {
@@ -63,7 +70,7 @@ display: flex;
 margin-top: 30px;
 margin-bottom: 30px;
 margin-left: 50px;
-width: 700px;
+width: 400px;
 border-radius: 0.6em
 }
 
@@ -77,17 +84,17 @@ transition: 0.4s ease;
 font-size: 1.1em;
 text-decoration: none;
 padding: 4px 16px;
-color: #2d2d2d;
-background: #55d6aa;
+color: #f2f2f2;
+/* background: #55d6aa; */
 border-radius: 0.25em;
 margin-left: 3.3rem;
 margin-bottom: 5vw;
 }
-.top:hover {
+/* .top:hover {
 color: #2d2d2d;
 background-color: #F2F2F2;
 transition: 0.4s ease;
-}
+} */
 
 .github-button {
 font-size: 1.1em;
@@ -125,12 +132,15 @@ margin-top: 100px;
   .project-images-mobile img {
     display: flex;
     margin: auto;
-    margin-top: 4vw;
+    margin-top: 6em;
     justify-content: center;
     width: 95%;
     cursor: pointer;
     border-radius: 0.6em;   
     box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
+  }
+  .api-image-mobile img{
+    margin-top: 1em;
   }
 
 
