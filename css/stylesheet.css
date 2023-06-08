@@ -216,7 +216,7 @@ div.welcome-text {
   }
   
 
-  @media all and (max-width: 255px){
+  @media all and (max-width: 270px){
     .logo {
       font-size: 0.7em;
       margin-left: -2em;
