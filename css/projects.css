@@ -27,7 +27,7 @@ html {
 } 
 .project-images img {
   width: 90%;
-  border-radius: 0.8em;
+  border-radius: 12px;
   margin: 20px;
   box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
 }
@@ -71,7 +71,7 @@ html {
   margin-bottom: 30px;
   margin-left: 50px;
   width: 400px;
-  border-radius: 0.6em
+  border-radius: 8px;
 }
 
 /* Project image hover */
@@ -99,7 +99,7 @@ transition: 0.2s ease;
   padding: 4px 16px;
   color: #2d2d2d;
   background: #55d6aa;
-  border-radius: 0.25em;
+  border-radius: 4px;
   margin-left: 3.3rem;
   margin-bottom: 5vw;
 }
@@ -116,7 +116,7 @@ transition: 0.2s ease;
   padding: 4px 16px;
   color: #2d2d2d;
   background: #55acd6;
-  border-radius: 0.25em;
+  border-radius: 4px;
   margin-left: 3.3rem;
   margin-bottom: 5vw;
 }
@@ -138,8 +138,8 @@ footer {
   margin-top: 100px;
 }
 
-/* ----------Media query START---------- */
 
+/* ----------Media query START---------- */
 
 @media all and (max-width: 1070px) {
   .project-images img {
@@ -151,24 +151,25 @@ footer {
     margin-top: 6em;
     justify-content: center;
     width: 95%;
-    cursor: pointer;
-    border-radius: 0.6em;   
+    cursor: pointer;  
+    border-radius: 8px;
     box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
   }
   .api-image-mobile img{
     margin-top: 1em;
   }
+  .project-posts h1 {
+    padding-left: 1.5rem;
+    margin-top: 1rem; 
+    margin-bottom: -12px; 
+  }
+  .project-posts h2 {
+    padding-left: 1.5rem;  
+  }
   .project-posts p {
     padding-left: 1.5rem; 
     max-width: 100%; 
-  }
-  .project-posts h2 {
-    padding-left: 1.5rem;
-  }
-  .project-posts h1 {
-    padding-left: 1.5rem;
-    margin-top: 1rem;
-  }
+  } 
   #project-image {
     max-width: 90%;
     margin-left: 1.5rem
@@ -176,11 +177,13 @@ footer {
   .github-buttons {
     margin-left: 1.5rem;
   } 
+  .back-to-top {
+    margin-left: 1.5rem;
+  }
 }
 
 @media all and (max-width: 1025px) {
   #blog-image {
-    border-radius: 8px; 
     width: 100%;
   }
   .blog-posts p {
@@ -189,9 +192,6 @@ footer {
 }
 
 @media all and (max-width: 800px) {
-  .project-posts p {
-    font-size: 1.2em; 
-  }
   .project-posts h1 {
     margin-top: 1rem;
     font-size: 1.6em;
@@ -199,21 +199,18 @@ footer {
   .project-posts h2 {
     font-size: 1.3em;
   }
-  .back-to-top {
-    margin-left: 1.5em;
-  }
 }
 
 @media all and (max-width: 600px) {
   .project-posts h1 {
     font-size: 1.4rem;
   }
-  .project-posts p {
-    font-size: 1rem;   
-  }
   .project-posts h2 {
     font-size: 1.1rem;
   }
+  .project-posts p {
+    font-size: 1em;   
+  } 
   .github-buttons {
     font-size: 0.9em;
     padding: 4px 10px;
@@ -223,13 +220,33 @@ footer {
     padding: 4px 10px;
   }
   .project-images-mobile img {
-    border-radius: 0.4em; 
+    border-radius: 4px;
   }
 }
 
 @media all and (max-width: 440px) {
   #project-image {
     margin-right: 1.5rem
+  }
+}
+
+@media all and (max-width: 300px) {
+ .project-posts h1 {
+    font-size: 1em;
+  }
+  .project-posts h2 {
+    font-size: 0.89rem;
+  }
+  .project-posts p {
+    font-size: 0.8em;
+  }
+  .github-buttons {
+    font-size: 0.6em;
+    padding: 4px 10px;
+  }
+  .back-to-top {
+    font-size: 0.6em;
+    padding: 4px 10px;
   }
 }
 

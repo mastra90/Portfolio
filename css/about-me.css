@@ -2,7 +2,7 @@
 p {
   font-family: 'Inter', sans-serif;
 }
-  
+
 /* Text content styling */
 .introduction {
   display: flex;
@@ -13,27 +13,56 @@ p {
   max-width: 42em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0.5px;
 }
   
 /* Setup image styling */
 #About-me-image {
   display: flex;
   margin-left: 2rem;
-  border-radius: 0.6vw;
+  border-radius: 12px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
   max-width: 50.2em;
-  margin-top: 3em;
+  margin-top: 0.5em;
   box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
 }
 
-/* Setup image hover styling */
-#About-me-image:hover {
-  transform: scale(1.02);
-  transition: 0.4s ease;
+.projects-link p{
+  font-family: 'Karla', sans-serif;
+  font-size: 1.4em;
+  font-weight: 700; 
+  color: #55d6aa;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase; 
 }
- 
+
+.projects-link a:visited, a:link, a:active{
+  text-decoration: none;
+}
+
+.projects-link p:hover{
+  color: #55d6aa;
+}
+
+.projects-link p::before{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #55d6aa;;
+  position: absolute;
+  top: 120%;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+.projects-link p:hover::before {
+  width: 100%;
+}
+
+
 /* ----------About me media query START---------- */ 
 
 @media all and (max-width: 980px) {
@@ -55,11 +84,23 @@ p {
   .introduction {
     font-size: 1em;
   }
+  .projects-link p{
+    font-size: 1.1em;
+  }
+  #About-me-image {
+    border-radius: 8px;
+  }
 }
 
 @media all and (max-width: 300px) {
   .introduction {
     font-size: 0.8em;
+  }
+  .projects-link p{
+    font-size: 0.9em;
+  }
+  #About-me-image {
+    border-radius: 4px;
   }
 }
 

@@ -13,113 +13,21 @@
     background-color: #333;
   }
   
-  /* All content in the body */
-  body {
-    margin: 0;
-    background: #181818;
-    overflow: scroll
-  }
-  
-  /* Nav width */
-  .container {
-    max-width: 80%;
-    margin: auto;   
-  }
-  
   /* Welcome text */
-  .welcome-content {
+  .thank-you-card {
+    /* max-width: 50em; */
     margin: auto; 
     margin-top: 200px;
     padding: 50px;
     padding-top: 4px;
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     height: 240px; 
     width: 600px; 
     border-radius: 6px;
   }
   
-  /* Nav header */
-  header {
-    background: #55d6aa;
-    padding: 50px 50px 20px 50px;
-  }
-  header::after {
-    content: '';
-    display: table;
-    clear: both;  
-  }
-
-  /* Nav position */
-  nav {
-    float: right;
-    position: relative; 
-  }
-  .nav-bar li {
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 1.5em; 
-    font-weight: 500 ;
-    position: relative;
-  }
-  
-  /* Nav style */
-  nav a {
-    color: #181818;
-    text-decoration: none;
-    text-transform: uppercase; 
-  } 
-  
-  /* Nav hover */
-  .nav-bar a::before{
-    content: '';
-    display:block;
-    height:4px;
-    width: 100%;
-    background-color: #181818;
-    position: absolute;
-    top: 80%;
-    width: 0%;
-    transition: all ease-in-out 250ms;
-  
-  }
-  .nav-bar a:hover::before {
-    width: 100%;
-  }
-  
-  /* Logo styling */
-  .logo { 
-    float: left;
-    font-weight: 800;
-    margin-left: 12px;
-    margin-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: -20px;
-    font-size: 1.5em; 
-    position: relative;    
-  }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  /* Nav socials icons */
-  div.icons-nav {
-    margin-top: 16px;
-    font-size: 1.1em;
-    margin-left: -12px;
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 70% 
-  }
-  
   /* h2 heading style */
-  div.thank-you {
+  div.thank-you-container {
     display: block;
     font-size: 1.6em;
     font-weight: 700;
@@ -133,11 +41,11 @@
     
   
   /* First h2 line margin */
-  .first-line {
+  .thank-you-text {
     margin-bottom: 1rem;
   } 
 
-  .successful {
+  .successful-text {
     display: flex;
     justify-content: start;
     font-size: 1.2em;
@@ -150,9 +58,33 @@
     text-decoration: none!important;
   }
 
-
   .back-to-site {
     font-weight: 900;
     color: #55acd6;
-    
+}
+
+@media all and (max-width: 600px) {
+  .thank-you-card {
+    max-width: 90%; 
+    margin-top: 160px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .successful-text{
+    font-size: 1em;
+  }
+  div.thank-you-container{
+    font-size: 1.4em;
+  }
+  .thank-you-card {
+    padding: 24px;
+    height: 200px;
+  }
+  .thank-you-text {
+    margin-top: -38px;
+  }
+  /* .back-to-site {
+    font-size: 0.8em;
+  } */
 }
