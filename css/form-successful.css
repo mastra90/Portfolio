@@ -2,17 +2,17 @@
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
     text-decoration: none!important;
-    color: #181818;
-    
-  }
-  /* Scrollbar styling */
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #333;
+    color: #181818;  
   }
   
+  /* Nav bar font weight */
+  .nav-bar .nav-bar-contacts {
+    font-weight: 800;
+  }
+  .nav-bar .nav-bar-home {
+    font-weight: 600;
+  }
+
   /* Welcome text */
   .thank-you-card {
     /* max-width: 50em; */
@@ -38,8 +38,7 @@
     margin-top: 2em;
     text-decoration: none!important;
 }
-    
-  
+     
   /* First h2 line margin */
   .thank-you-text {
     margin-bottom: 1rem;
@@ -84,7 +83,4 @@
   .thank-you-text {
     margin-top: -38px;
   }
-  /* .back-to-site {
-    font-size: 0.8em;
-  } */
 }
