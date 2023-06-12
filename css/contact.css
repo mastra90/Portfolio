@@ -4,6 +4,14 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* Nav bar font weight */
+.nav-bar .nav-bar-contacts {
+  font-weight: 800;
+}
+.nav-bar .nav-bar-home {
+  font-weight: 600;
+}
+
 /* Heading font size*/
 h2 {
   display: flex;

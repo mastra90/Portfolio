@@ -3,6 +3,14 @@
   font-family: 'Inter', sans-serif;
 }
 
+/* Nav bar font weight */
+.nav-bar .nav-bar-projects {
+  font-weight: 800;
+}
+.nav-bar .nav-bar-home {
+  font-weight: 600;
+}
+
 /* Smooth scroll effect */
 html {
   scroll-behavior: smooth;

@@ -7,6 +7,8 @@
         <title>Luke Mastrocola - Home</title>
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
         <link href="css/about-me.css" rel="stylesheet">
+        <link href="css/animations.css" rel="stylesheet">
+        <link href="css/about-animations.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -15,26 +17,27 @@
         <div class="container">
             <!-- Logo -->
             <nav class="logo">
-                <ul>
+                <ul class="logo-text">
                     <li><a href="index.html">>_Luke Mastrocola</a></li>
                 </ul>
                 <!-- Nav icons -->
                 <div class="icons-nav">
-                    <a href="https://github.com/mastra90" target="_blank" class="fa-brands fa-github"></a>
-                    <a href="https://www.linkedin.com/in/luke-mastrocola-aab00427a/" target="_blank" class="fa-brands fa-linkedin"></a> 
-                    <a href="https://twitter.com/Mastra_90" target="_blank" class="fa-brands fa-twitter"></a>
-                    <a href="https://www.instagram.com/luke.mastrocola/" target="_blank" class="fa-brands fa-instagram"></a> 
+                    <a id="git-nav" href="https://github.com/mastra90" target="_blank" class="fa-brands fa-github"></a>
+                    <a id="linkedin-nav" href="https://www.linkedin.com/in/luke-mastrocola-aab00427a/" target="_blank" class="fa-brands fa-linkedin"></a> 
+                    <a id="twitter-nav" href="https://twitter.com/Mastra_90" target="_blank" class="fa-brands fa-twitter"></a>
+                    <a id="instagram-nav" href="https://www.instagram.com/luke.mastrocola/" target="_blank" class="fa-brands fa-instagram"></a> 
                 </div> 
             </nav>
 
             <!-- Nav bar -->
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="nav-bar">
+                <nav >
+                    <ul>
+                        <li class="nav-bar-home" id="home-item"><a href="index.html">Home</a></li>
+                        <li class="nav-bar-projects"><a href="projects.html">Projects</a></li>
+                        <li class="nav-bar-contacts"><a href="contact.html">Contact</a></li>
+                    </ul>
+            </div>
         </div>
     </header>
 
@@ -50,7 +53,6 @@
                     <p class="introduction">
                         Welcome! I am studying a Diploma of IT at Coder Academy where I'm learning full stack development. I love the web, front-end development and have a passion for the technical side and being creative. This website has been created to practice my coding skills. Take a look at some of the projects I've worked on during my time at Coder!  
                     </p>
-                    <nav></nav>
                     <a href="projects.html" class="projects-link"><p>>_My projects</p></a>
                     <img id="About-me-image" src="images/setup.jpg" alt="home setup img">
             </div>

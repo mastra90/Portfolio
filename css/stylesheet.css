@@ -45,6 +45,8 @@ header::after {
 nav {
   float: right;
   position: relative; 
+  overflow: hidden;
+  
 }
 .nav-bar li {
   display: inline-block;
@@ -64,6 +66,11 @@ nav a {
   text-decoration: none;
   text-transform: uppercase; 
 } 
+
+/* Nav bar HOME font weight */
+.nav-bar .nav-bar-home {
+  font-weight: 800;
+}
 
 /* Nav hover */
 .nav-bar a::before{
@@ -92,7 +99,8 @@ nav a {
   padding-bottom: 20px;
   margin-top: -20px;
   font-size: 1.5em; 
-  position: relative;    
+  position: relative;   
+  /* overflow: hidden;  */
 }
 nav ul {
   margin: 0;
@@ -131,9 +139,13 @@ div.welcome-text {
 } 
 
 
+
 /* ----------Media query START---------- */
 
 @media all and (max-width: 1120px) {
+  nav {
+    overflow: inherit;
+  }
   .nav-bar li {
     display: table;  
     margin-left: 12px;
@@ -157,6 +169,9 @@ div.welcome-text {
 @media all and (max-width: 870px) {
   .welcome-content {
     max-width: 90%;
+  }
+  .nav-bar a::before {
+    height:2px;
   }
 }
 
