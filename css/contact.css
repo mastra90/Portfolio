@@ -167,16 +167,7 @@ input[type=submit]:hover {
   }
   h2 {
     font-size: 24px; 
-  }
-  input[type=submit] {
-    width: 100%;
-  }
-  input[type=text],[type=email], select, textarea {
-    width: 100%; 
-  }
-  label {
-    width: 100%;
-  }  
+  } 
 }
 
   /* ----------Contact form media query END---------- */
