@@ -150,13 +150,17 @@ footer {
 /* ----------Media query START---------- */
 
 @media all and (max-width: 1070px) {
+
+  .project-images {
+    margin-bottom: -2em;
+  }
   .project-images img {
     display: none;
   }
   .project-images-mobile img {
     display: flex;
     margin: auto;
-    margin-top: 6em;
+    margin-top: 2em;
     justify-content: center;
     width: 95%;
     cursor: pointer;  
