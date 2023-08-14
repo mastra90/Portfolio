@@ -157,8 +157,7 @@ footer {
   .project-images img {
     display: none;
   }
-  .project-images-mobile img {
-    
+  .project-images-mobile img {  
     display: flex;
     margin: auto;
     margin-top: 2em;
@@ -167,8 +166,7 @@ footer {
     cursor: pointer;  
     border-radius: 8px;
     box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
-    position: relative;
-    
+    position: relative;  
   }
   .api-image-mobile img{
     margin-top: 1em;
