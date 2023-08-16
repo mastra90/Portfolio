@@ -3,6 +3,11 @@
   font-family: 'Inter', sans-serif;
 }
 
+.first-projects {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Nav bar font weight */
 .nav-bar .nav-bar-projects {
   font-weight: 800;
@@ -20,7 +25,7 @@ html {
 .content {
   max-width: 79em;
   margin: auto;
-  margin-top: 5%; 
+  margin-top: 10em; 
 }
 
 /* Project images styling */
@@ -45,9 +50,10 @@ html {
   display: flex;
   justify-content: start;
   padding-left: 3.3rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
   font-size: 1.8em;
   font-weight: 700; 
+  
   color: #dadada;
 }
 /* Project sub-title styling */
@@ -152,11 +158,32 @@ footer {
   text-decoration: none;
   color: #55d6aa;
   font-weight: 600;
-  
+}
+
+.minimalist {
+ padding-bottom: 2em;
+ border-radius: 0.5em;
+}
+
+.minimalist:hover {
+  background-color: rgb(66, 66, 66);
+  transition: ease-out 150ms;
+  cursor: pointer;
+}
+
+.minimalist:hover .minimalist-click-container .project-posts h1 {
+  color: rgb(204, 17, 17) !important;
+}
+
+.minimalist-click-container {
+  text-decoration: none;
+ 
 }
 
 .check-it-out {
   display: inline-block;
+  color: #c50404;
+  text-decoration: none;
 }
 
 
