@@ -126,20 +126,23 @@ transition: 0.2s ease;
 /* Github button styling */
 .github-buttons {
   font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
   text-decoration: none;
-  padding: 4px 16px;
+  padding: 0.5em 1em 0.4em 1em;
   color: #2d2d2d;
-  background: #55acd6;
-  border-radius: 4px;
+  background: #55d6aa;
+  border-radius: 2em;
   margin-left: 3.3rem;
-  margin-bottom: 5vw;
+  cursor: pointer;
+  border: none;
 }
 
 /* 'Back to top' button hover styling */
 .github-buttons:hover {
-  color: #2d2d2d;
-  background-color: #dadada;
-  transition: 0.4s ease;
+  color: #55d6aa;
+  background-color: #293e37;
+  transition: 150ms ease;
 }
 
 /* Mobile images */
@@ -185,6 +188,22 @@ footer {
   color: #c50404;
   text-decoration: none;
 }
+
+.tech {
+  display: flex;
+  margin-left: 2.5em ;
+  
+}
+
+.tech1, .tech2, .tech3 {
+  background-color: #293e37;
+  padding: 0.4em 1.2em 0.4em 1.2em !important;
+  margin: 0.5em !important;
+  border-radius: 80px;
+  color: #55d6aa !important;
+  font-weight: 500 !important;
+}
+
 
 
 /* ----------Media query START---------- */
