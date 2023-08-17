@@ -8,6 +8,12 @@
   flex-direction: row;
 }
 
+.second-projects {
+  display: flex;
+  flex-direction: row;
+}
+
+
 /* Nav bar font weight */
 .nav-bar .nav-bar-projects {
   font-weight: 800;
@@ -174,9 +180,17 @@ footer {
   cursor: pointer;
 }
 
-.minimalist:hover .minimalist-click-container .project-posts h1 {
-  color: rgb(204, 17, 17) !important;
-}
+.minimalist1 {
+  padding-bottom: 2em;
+  border-radius: 0.5em;
+ }
+ 
+ .minimalist1:hover {
+   background-color: rgb(66, 66, 66);
+   transition: ease-out 150ms;
+   cursor: pointer;
+ }
+
 
 .minimalist-click-container {
   text-decoration: none;
@@ -196,6 +210,21 @@ footer {
 }
 
 .tech1, .tech2, .tech3 {
+  background-color: #293e37;
+  padding: 0.4em 1.2em 0.4em 1.2em !important;
+  margin: 0.5em !important;
+  border-radius: 80px;
+  color: #55d6aa !important;
+  font-weight: 500 !important;
+}
+
+.techh {
+  display: flex;
+  margin-left: 2.5em ;
+  
+}
+
+.techh1, .techh2, .techh3 {
   background-color: #293e37;
   padding: 0.4em 1.2em 0.4em 1.2em !important;
   margin: 0.5em !important;
