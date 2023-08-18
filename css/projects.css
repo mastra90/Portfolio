@@ -6,13 +6,12 @@
 .first-projects {
   display: flex;
   flex-direction: row;
+  margin-left: -4em !important;
 }
 
-.second-projects {
-  display: flex;
-  flex-direction: row;
+h1 {
+  display: inline-block !important;
 }
-
 
 /* Nav bar font weight */
 .nav-bar .nav-bar-projects {
@@ -22,33 +21,11 @@
   font-weight: 600;
 }
 
-/* Smooth scroll effect */
-html {
-  scroll-behavior: smooth;
-}
-
 /* Content positioning */
 .content {
   max-width: 79em;
   margin: auto;
   margin-top: 10em; 
-}
-
-/* Project images styling */
-.project-images {
-  display: flex;
-  margin: auto;
-  margin-top: 2em;
-  margin-bottom: -6em;
-  justify-content: center;
-  max-width: 1200px;
-  cursor: pointer;
-} 
-.project-images img {
-  width: 90%;
-  border-radius: 12px;
-  margin: 20px;
-  box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
 }
 
 /* Project title styling */
@@ -59,30 +36,23 @@ html {
   margin-top: 2rem;
   font-size: 1.8em;
   font-weight: 700; 
-  
   color: #dadada;
 }
-/* Project sub-title styling */
-.project-posts h2 {
-  display: flex;
-  justify-content: start;
-  padding-left: 3.3rem;
-  font-size: 1.4em;
-  font-weight: 600;
-  color: #dadada;
-}
+
 
 /* Project description styling */
 .project-posts p {
   display: flex;
-  justify-content: start;
   padding-left: 3.3rem;
   font-size: 1.2em;
   font-weight: 300;
   color: #dadada;
   margin-right: 50px;
-  max-width: 70%;
+  max-width: 90%;
+  text-align: justify;
 }
+
+
 
 /* Individual project image styling */
 #project-image {
@@ -90,44 +60,12 @@ html {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 50px;
-  width: 400px;
+  margin-right: 50px;
+  width: 500px;
   border-radius: 8px;
 }
 
-/* Project image hover */
-.python-app-desktop:hover {
-transform: scale(1.01);
-transition: 0.2s ease;
-}
-.api-image-desktop:hover {
-  transform: scale(1.01);
-  transition: 0.2s ease;
-}
-.python-app-mobile img:hover {
-  transform: scale(1.01);
-  transition: 0.2s ease;
-}
-.api-image-mobile img:hover {
-  transform: scale(1.01);
-  transition: 0.2s ease;
-}
 
-/* 'Back to top' button styling */
-.back-to-top {
-  font-size: 1.1em;
-  text-decoration: none;
-  padding: 4px 16px;
-  color: #2d2d2d;
-  background: #55d6aa;
-  border-radius: 4px;
-  margin-left: 3.3rem;
-  margin-bottom: 5vw;
-}
-.back-to-top:hover {
-  color: #2d2d2d;
-  background-color: #dadada;
-  transition: 0.4s ease;
-}
 
 /* Github button styling */
 .github-buttons {
@@ -151,57 +89,30 @@ transition: 0.2s ease;
   transition: 150ms ease;
 }
 
-/* Mobile images */
-.project-images-mobile img {
-  display: none;  
-}
-
 /* Footer margin */
 footer {
   margin-top: 100px;
 }
 
-#minimalist-link {
-  display: inline-block;
-  margin-left: 0.5em;
-  text-decoration: none;
-  color: #55d6aa;
-  font-weight: 600;
+.project-container {
+  padding-bottom: 2em;
+  border-radius: 0.5em;
+  margin: 3em;
+  background-color: rgb(54, 54, 54);
 }
 
-.minimalist {
- padding-bottom: 2em;
- border-radius: 0.5em;
-}
+.project-container:hover {
+  background-color: rgb(73, 73, 73);
 
-.minimalist:hover {
-  background-color: rgb(66, 66, 66);
   transition: ease-out 150ms;
   cursor: pointer;
 }
 
-.minimalist1 {
-  padding-bottom: 2em;
-  border-radius: 0.5em;
- }
- 
- .minimalist1:hover {
-   background-color: rgb(66, 66, 66);
-   transition: ease-out 150ms;
-   cursor: pointer;
- }
 
-
-.minimalist-click-container {
-  text-decoration: none;
- 
-}
-
-.check-it-out {
-  display: inline-block;
-  color: #c50404;
+.click-container {
   text-decoration: none;
 }
+
 
 .tech {
   display: flex;
@@ -218,139 +129,10 @@ footer {
   font-weight: 500 !important;
 }
 
-.techh {
-  display: flex;
-  margin-left: 2.5em ;
-  
-}
-
-.techh1, .techh2, .techh3 {
-  background-color: #293e37;
-  padding: 0.4em 1.2em 0.4em 1.2em !important;
-  margin: 0.5em !important;
-  border-radius: 80px;
-  color: #55d6aa !important;
-  font-weight: 500 !important;
-}
-
 
 
 /* ----------Media query START---------- */
 
-@media all and (max-width: 1070px) {
 
-  .project-images {
-    margin-bottom: -2em;
-  }
-  .project-images img {
-    display: none;
-  }
-  .project-images-mobile img {  
-    display: flex;
-    margin: auto;
-    margin-top: 2em;
-    justify-content: center;
-    width: 95%;
-    cursor: pointer;  
-    border-radius: 8px;
-    box-shadow: 10px 10px 20px 5px rgb(14, 14, 14);
-    position: relative;  
-  }
-  .api-image-mobile img{
-    margin-top: 1em;
-  }
-  .project-posts h1 {
-    padding-left: 1.5rem;
-    margin-top: 1rem; 
-    margin-bottom: -12px; 
-  }
-  .project-posts h2 {
-    padding-left: 1.5rem;  
-  }
-  .project-posts p {
-    padding-left: 1.5rem; 
-    max-width: 100%; 
-  } 
-  #project-image {
-    max-width: 90%;
-    margin-left: 1.5rem
-  }
-  .github-buttons {
-    margin-left: 1.5rem;
-  } 
-  .back-to-top {
-    margin-left: 1.5rem;
-  }
-
-  
-}
-
-@media all and (max-width: 1025px) {
-  #blog-image {
-    width: 100%;
-  }
-  .blog-posts p {
-    padding: 5px;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .project-posts h1 {
-    margin-top: 1rem;
-    font-size: 1.6em;
-  }
-  .project-posts h2 {
-    font-size: 1.3em;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .project-posts h1 {
-    font-size: 1.4rem;
-  }
-  .project-posts h2 {
-    font-size: 1.1rem;
-  }
-  .project-posts p {
-    font-size: 1em;   
-  } 
-  .github-buttons {
-    font-size: 0.9em;
-    padding: 4px 10px;
-  }
-  .back-to-top {
-    font-size: 0.9em;
-    padding: 4px 10px;
-  }
-  .project-images-mobile img {
-    border-radius: 4px;
-  }
-}
-
-@media all and (max-width: 440px) {
-  #project-image {
-    margin-right: 1.5rem
-  }
-}
-
-@media all and (max-width: 300px) {
- .project-posts h1 {
-    font-size: 1em;
-  }
-  .project-posts h2 {
-    font-size: 0.89rem;
-  }
-  .project-posts p {
-    font-size: 0.8em;
-  }
-  .github-buttons {
-    font-size: 0.6em;
-    padding: 4px 10px;
-  }
-  .back-to-top {
-    font-size: 0.6em;
-    padding: 4px 10px;
-  }
-}
 
 /* ----------Blog media query END---------- */
