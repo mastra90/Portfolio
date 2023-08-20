@@ -129,7 +129,7 @@ footer {
 
 /* ----------Media query START---------- */
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1420px) {
   .all-projects {
     flex-direction: column;
     margin-left: 0em !important;
