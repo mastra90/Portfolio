@@ -42,18 +42,18 @@
 
     <body>
         <!-- Page heading -->
-        <h2 class="contact-header">CONTACT ME</h2>
+        <h2 class="contact-header">CONTACT</h2>
 
         <!-- Contact form -->
         <div class="contact-container">
             <form name="contact" method="POST" action="/form-success.html" data-netlify="true">
-            <!-- First name label -->
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="name" placeholder="Your name" required>
+            <!-- Name label -->
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="name" placeholder="Enter your full name" required>
 
             <!-- Email label -->
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+            <input type="email" name="email" id="email" placeholder="youremail@mail.com" required />
             
             <!-- Country dropdown -->
             <label for="country" >Country</label>
@@ -68,7 +68,7 @@
             
             <!-- Subject text -->
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Your message" style="height:200px" required></textarea>
+            <textarea id="subject" name="subject" placeholder="Type your message here..." style="height:200px" required></textarea>
             
             <!-- Submit button -->
             <input type="submit" value="Submit">
